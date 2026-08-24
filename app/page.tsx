@@ -37,8 +37,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=2000&q=85')",
+              backgroundImage: "url('/ger12.jpg')",
           }}
         />
 
@@ -121,13 +120,12 @@ export default function Home() {
             </a>
           </div>
 
-          <div
-            className="h-[500px] rounded-3xl bg-cover bg-center"
-            style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&w=1200&q=85')",
-            }}
-          />
+<div
+  className="h-[500px] rounded-3xl bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/ger13.jpg')",
+  }}
+/>
         </div>
       </section>
 
@@ -205,43 +203,61 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section
-        id="contact"
-        className="relative overflow-hidden bg-stone-200 px-6 py-24"
+<section
+  id="contact"
+  className="relative overflow-hidden bg-stone-200 px-6 py-24"
+>
+  <div className="mx-auto max-w-5xl text-center">
+    <p className="text-sm font-semibold uppercase tracking-[0.25em] text-stone-500">
+      Your Mongolian adventure
+    </p>
+
+    <h2 className="mt-4 text-4xl font-bold md:text-6xl">
+      Come experience
+      <br />
+      Mongolia with us.
+    </h2>
+
+    <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600">
+      Leave the city behind and spend a few days surrounded by nature,
+      horses and Mongolian culture.
+    </p>
+
+    <div className="mt-9 flex flex-wrap justify-center gap-4">
+      <a
+        href="mailto:hello@mongoliagerstay.com"
+        className="rounded-full bg-stone-900 px-8 py-4 font-semibold text-white hover:bg-stone-700"
       >
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-stone-500">
-            Your Mongolian adventure
-          </p>
+        Contact us
+      </a>
 
-          <h2 className="mt-4 text-4xl font-bold md:text-6xl">
-            Come experience
-            <br />
-            Mongolia with us.
-          </h2>
+      <a
+        href="#stay"
+        className="rounded-full border border-stone-400 px-8 py-4 font-semibold text-stone-900 hover:bg-white"
+      >
+        View our stay
+      </a>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600">
-            Leave the city behind and spend a few days surrounded by nature,
-            horses and Mongolian culture.
-          </p>
+      <a
+        href="https://www.instagram.com/authentic_nomad_family/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-full border border-stone-400 px-8 py-4 font-semibold text-stone-900 hover:bg-white"
+      >
+        Instagram
+      </a>
 
-          <div className="mt-9 flex flex-wrap justify-center gap-4">
-            <a
-              href="mailto:hello@mongoliagerstay.com"
-              className="rounded-full bg-stone-900 px-8 py-4 font-semibold text-white hover:bg-stone-700"
-            >
-              Contact us
-            </a>
-
-            <a
-              href="#stay"
-              className="rounded-full border border-stone-400 px-8 py-4 font-semibold text-stone-900 hover:bg-white"
-            >
-              View our stay
-            </a>
-          </div>
-        </div>
-      </section>
+      <a
+        href="https://www.airbnb.com/rooms/1424303193731217278"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-full border border-stone-400 px-8 py-4 font-semibold text-stone-900 hover:bg-white"
+      >
+        Book on Airbnb
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-stone-950 px-6 py-10 text-white">
