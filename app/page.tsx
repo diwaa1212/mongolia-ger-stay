@@ -123,7 +123,7 @@ export default function Home() {
 <div
   className="h-[500px] rounded-3xl bg-cover bg-center"
   style={{
-    backgroundImage: "url('/ger13.jpg')",
+    backgroundImage: "url('/ger20.jpg')",
   }}
 />
         </div>
